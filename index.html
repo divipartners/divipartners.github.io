@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divi Partners - Confecciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-mobile">
+            <button class="hamburger" id="menu-toggle">☰</button>
+        </div>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#quienes-somos">Quienes Somos</a></li>
+                <li><a href="#taller">Taller</a></li>
+                <li><a href="#contactenos">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quienes-somos">
+        <h1>Bienvenidos a Divi Partners</h1>
+        <p>Especialistas en confecciones de tejido plano y de punto, con 20 años de experiencia en el sector textil. Calidad y compromiso en cada prenda.</p>
+    </section>
+
+    <section id="taller">
+        <h2>Nuestro Taller</h2>
+        <p>Contamos con maquinaria moderna: plana, fileteadora y recubridora. Nos dedicamos a todo tipo de confecciones en tejido plano y punto.</p>
+    </section>
+
+    <section id="contactenos">
+        <h2>Contáctenos</h2>
+        <p>Cra. 29 Nro. 30-30, San Vicente, Antioquia, Parque Principal</p>
+        <p>Teléfono: (57) 3504547516</p>
+        <p>Email: divipartnersconfecciones@gmail.com</p>
+    </section>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
